@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		18A453361C1AA85B00CA0CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A453351C1AA85B00CA0CC7 /* main.m */; };
 		18A453391C1AA85B00CA0CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A453381C1AA85B00CA0CC7 /* AppDelegate.m */; };
-		18A4533C1C1AA85B00CA0CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A4533B1C1AA85B00CA0CC7 /* ViewController.m */; };
-		18A4533F1C1AA85B00CA0CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4533D1C1AA85B00CA0CC7 /* Main.storyboard */; };
 		18A453411C1AA85B00CA0CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A453401C1AA85B00CA0CC7 /* Assets.xcassets */; };
 		18A453441C1AA85B00CA0CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A453421C1AA85B00CA0CC7 /* LaunchScreen.storyboard */; };
+		18A4534E1C1AAEB700CA0CC7 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4534D1C1AAEB700CA0CC7 /* News.storyboard */; };
+		18A453511C1AAF2D00CA0CC7 /* CycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A453501C1AAF2D00CA0CC7 /* CycleViewController.m */; };
+		18A453541C1AB7F400CA0CC7 /* HeadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A453531C1AB7F400CA0CC7 /* HeadLine.m */; };
+		18D790D31C1ABC0300A22DCB /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790D21C1ABC0300A22DCB /* NetWorkTool.m */; };
+		18D790D61C1AC78400A22DCB /* CycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790D51C1AC78400A22DCB /* CycleCell.m */; };
+		18D790DA1C1AD3C700A22DCB /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790D91C1AD3C700A22DCB /* NewsViewController.m */; };
+		18D790DD1C1AD83F00A22DCB /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790DC1C1AD83F00A22DCB /* News.m */; };
+		18D790E01C1AE7BE00A22DCB /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790DF1C1AE7BE00A22DCB /* NewsCell.m */; };
+		18D790E21C1B070E00A22DCB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D790E11C1B070E00A22DCB /* Home.storyboard */; };
+		18D790E51C1B071F00A22DCB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790E41C1B071F00A22DCB /* HomeViewController.m */; };
+		18D790E91C1B0A1C00A22DCB /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790E81C1B0A1C00A22DCB /* Channel.m */; };
+		18D790EB1C1B0B4100A22DCB /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 18D790EA1C1B0B4100A22DCB /* topic_news.json */; };
+		18D790EE1C1B15BC00A22DCB /* ChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */; };
 		7381B7E1D26C6C49DF5281E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 376F1CA972DD3576DFB047BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +33,32 @@
 		18A453351C1AA85B00CA0CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A453371C1AA85B00CA0CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18A453381C1AA85B00CA0CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18A4533A1C1AA85B00CA0CC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18A4533B1C1AA85B00CA0CC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18A4533E1C1AA85B00CA0CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A453401C1AA85B00CA0CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A453431C1AA85B00CA0CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A453451C1AA85B00CA0CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A4534D1C1AAEB700CA0CC7 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		18A4534F1C1AAF2D00CA0CC7 /* CycleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleViewController.h; sourceTree = "<group>"; };
+		18A453501C1AAF2D00CA0CC7 /* CycleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleViewController.m; sourceTree = "<group>"; };
+		18A453521C1AB7F300CA0CC7 /* HeadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadLine.h; sourceTree = "<group>"; };
+		18A453531C1AB7F400CA0CC7 /* HeadLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadLine.m; sourceTree = "<group>"; };
+		18D790D11C1ABC0300A22DCB /* NetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
+		18D790D21C1ABC0300A22DCB /* NetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
+		18D790D41C1AC78400A22DCB /* CycleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleCell.h; sourceTree = "<group>"; };
+		18D790D51C1AC78400A22DCB /* CycleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleCell.m; sourceTree = "<group>"; };
+		18D790D81C1AD3C700A22DCB /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		18D790D91C1AD3C700A22DCB /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		18D790DB1C1AD83F00A22DCB /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		18D790DC1C1AD83F00A22DCB /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		18D790DE1C1AE7BE00A22DCB /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		18D790DF1C1AE7BE00A22DCB /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		18D790E11C1B070E00A22DCB /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18D790E31C1B071F00A22DCB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18D790E41C1B071F00A22DCB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18D790E71C1B0A1C00A22DCB /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		18D790E81C1B0A1C00A22DCB /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		18D790EA1C1B0B4100A22DCB /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		18D790EC1C1B15BC00A22DCB /* ChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLabel.h; sourceTree = "<group>"; };
+		18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLabel.m; sourceTree = "<group>"; };
 		376F1CA972DD3576DFB047BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03DD0F8C1B9CEE4FC9B73E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,14 +96,13 @@
 		18A453331C1AA85B00CA0CC7 /* FNews */ = {
 			isa = PBXGroup;
 			children = (
+				18A4534B1C1AAE8D00CA0CC7 /* News */,
 				18A453371C1AA85B00CA0CC7 /* AppDelegate.h */,
 				18A453381C1AA85B00CA0CC7 /* AppDelegate.m */,
-				18A4533A1C1AA85B00CA0CC7 /* ViewController.h */,
-				18A4533B1C1AA85B00CA0CC7 /* ViewController.m */,
-				18A4533D1C1AA85B00CA0CC7 /* Main.storyboard */,
 				18A453401C1AA85B00CA0CC7 /* Assets.xcassets */,
 				18A453421C1AA85B00CA0CC7 /* LaunchScreen.storyboard */,
 				18A453451C1AA85B00CA0CC7 /* Info.plist */,
+				18D790EA1C1B0B4100A22DCB /* topic_news.json */,
 				18A453341C1AA85B00CA0CC7 /* Supporting Files */,
 			);
 			path = FNews;
@@ -84,6 +114,67 @@
 				18A453351C1AA85B00CA0CC7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A4534B1C1AAE8D00CA0CC7 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				18D790E61C1B092900A22DCB /* Channel */,
+				18D790D71C1AD36400A22DCB /* News */,
+				18D790D01C1ABBAB00A22DCB /* Tools */,
+				18A4534C1C1AAE8D00CA0CC7 /* Cycle */,
+				18A4534D1C1AAEB700CA0CC7 /* News.storyboard */,
+				18D790E11C1B070E00A22DCB /* Home.storyboard */,
+				18D790E31C1B071F00A22DCB /* HomeViewController.h */,
+				18D790E41C1B071F00A22DCB /* HomeViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		18A4534C1C1AAE8D00CA0CC7 /* Cycle */ = {
+			isa = PBXGroup;
+			children = (
+				18A4534F1C1AAF2D00CA0CC7 /* CycleViewController.h */,
+				18A453501C1AAF2D00CA0CC7 /* CycleViewController.m */,
+				18A453521C1AB7F300CA0CC7 /* HeadLine.h */,
+				18A453531C1AB7F400CA0CC7 /* HeadLine.m */,
+				18D790D41C1AC78400A22DCB /* CycleCell.h */,
+				18D790D51C1AC78400A22DCB /* CycleCell.m */,
+			);
+			path = Cycle;
+			sourceTree = "<group>";
+		};
+		18D790D01C1ABBAB00A22DCB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18D790D11C1ABC0300A22DCB /* NetWorkTool.h */,
+				18D790D21C1ABC0300A22DCB /* NetWorkTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18D790D71C1AD36400A22DCB /* News */ = {
+			isa = PBXGroup;
+			children = (
+				18D790D81C1AD3C700A22DCB /* NewsViewController.h */,
+				18D790D91C1AD3C700A22DCB /* NewsViewController.m */,
+				18D790DE1C1AE7BE00A22DCB /* NewsCell.h */,
+				18D790DF1C1AE7BE00A22DCB /* NewsCell.m */,
+				18D790DB1C1AD83F00A22DCB /* News.h */,
+				18D790DC1C1AD83F00A22DCB /* News.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		18D790E61C1B092900A22DCB /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				18D790E71C1B0A1C00A22DCB /* Channel.h */,
+				18D790E81C1B0A1C00A22DCB /* Channel.m */,
+				18D790EC1C1B15BC00A22DCB /* ChannelLabel.h */,
+				18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */,
+			);
+			path = Channel;
 			sourceTree = "<group>";
 		};
 		8BEE045C1C65E3815ADFC265 /* Frameworks */ = {
@@ -163,8 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A453441C1AA85B00CA0CC7 /* LaunchScreen.storyboard in Resources */,
+				18A4534E1C1AAEB700CA0CC7 /* News.storyboard in Resources */,
 				18A453411C1AA85B00CA0CC7 /* Assets.xcassets in Resources */,
-				18A4533F1C1AA85B00CA0CC7 /* Main.storyboard in Resources */,
+				18D790EB1C1B0B4100A22DCB /* topic_news.json in Resources */,
+				18D790E21C1B070E00A22DCB /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +301,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A4533C1C1AA85B00CA0CC7 /* ViewController.m in Sources */,
 				18A453391C1AA85B00CA0CC7 /* AppDelegate.m in Sources */,
 				18A453361C1AA85B00CA0CC7 /* main.m in Sources */,
+				18D790E91C1B0A1C00A22DCB /* Channel.m in Sources */,
+				18D790E01C1AE7BE00A22DCB /* NewsCell.m in Sources */,
+				18D790E51C1B071F00A22DCB /* HomeViewController.m in Sources */,
+				18D790D61C1AC78400A22DCB /* CycleCell.m in Sources */,
+				18A453511C1AAF2D00CA0CC7 /* CycleViewController.m in Sources */,
+				18A453541C1AB7F400CA0CC7 /* HeadLine.m in Sources */,
+				18D790D31C1ABC0300A22DCB /* NetWorkTool.m in Sources */,
+				18D790DD1C1AD83F00A22DCB /* News.m in Sources */,
+				18D790EE1C1B15BC00A22DCB /* ChannelLabel.m in Sources */,
+				18D790DA1C1AD3C700A22DCB /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18A4533D1C1AA85B00CA0CC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A4533E1C1AA85B00CA0CC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18A453421C1AA85B00CA0CC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,9 +416,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderLong.FNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,9 +430,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderLong.FNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CycleViewController.h
 //  FNews
 //
 //  Created by apple on 15/12/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CycleViewController : UICollectionViewController
 
 @end
-
