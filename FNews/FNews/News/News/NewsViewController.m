@@ -22,13 +22,21 @@
     [self.tableView reloadData];
 }
 
+- (void)setUrlString:(NSString *)urlString
+{
+    _urlString = urlString;
+ 
+    //article/headline/T1348647853363/0-20.html
+    [News newsWithURLString:urlString completion:^(NSArray *newsList) {
+        self.newsList = newsList;
+    }];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     
-    [News newsWithURLString:@"article/headline/T1348647853363/0-20.html"completion:^(NSArray *newsList) {
-        self.newsList = newsList;
-    }];
 }
 
 

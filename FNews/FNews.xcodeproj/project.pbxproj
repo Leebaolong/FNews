@@ -24,6 +24,7 @@
 		18D790E91C1B0A1C00A22DCB /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790E81C1B0A1C00A22DCB /* Channel.m */; };
 		18D790EB1C1B0B4100A22DCB /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 18D790EA1C1B0B4100A22DCB /* topic_news.json */; };
 		18D790EE1C1B15BC00A22DCB /* ChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */; };
+		18D790F11C1B1E5500A22DCB /* ChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D790F01C1B1E5500A22DCB /* ChannelCell.m */; };
 		7381B7E1D26C6C49DF5281E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 376F1CA972DD3576DFB047BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		18D790EA1C1B0B4100A22DCB /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
 		18D790EC1C1B15BC00A22DCB /* ChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelLabel.h; sourceTree = "<group>"; };
 		18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelLabel.m; sourceTree = "<group>"; };
+		18D790EF1C1B1E5500A22DCB /* ChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelCell.h; sourceTree = "<group>"; };
+		18D790F01C1B1E5500A22DCB /* ChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCell.m; sourceTree = "<group>"; };
 		376F1CA972DD3576DFB047BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03DD0F8C1B9CEE4FC9B73E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +176,8 @@
 				18D790E81C1B0A1C00A22DCB /* Channel.m */,
 				18D790EC1C1B15BC00A22DCB /* ChannelLabel.h */,
 				18D790ED1C1B15BC00A22DCB /* ChannelLabel.m */,
+				18D790EF1C1B1E5500A22DCB /* ChannelCell.h */,
+				18D790F01C1B1E5500A22DCB /* ChannelCell.m */,
 			);
 			path = Channel;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				18A453511C1AAF2D00CA0CC7 /* CycleViewController.m in Sources */,
 				18A453541C1AB7F400CA0CC7 /* HeadLine.m in Sources */,
 				18D790D31C1ABC0300A22DCB /* NetWorkTool.m in Sources */,
+				18D790F11C1B1E5500A22DCB /* ChannelCell.m in Sources */,
 				18D790DD1C1AD83F00A22DCB /* News.m in Sources */,
 				18D790EE1C1B15BC00A22DCB /* ChannelLabel.m in Sources */,
 				18D790DA1C1AD3C700A22DCB /* NewsViewController.m in Sources */,

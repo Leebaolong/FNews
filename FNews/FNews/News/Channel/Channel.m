@@ -46,7 +46,8 @@
 - (void)setTid:(NSString *)tid
 {
     _tid = tid.copy;
-    _urlString = [NSString stringWithFormat:@"%@/0-20.html",tid];
+//    article/headline/T1348647853363/0-20.html
+    _urlString = [NSString stringWithFormat:@"article/headline/%@/0-20.html",tid];
 }
 
 + (NSArray *)properties

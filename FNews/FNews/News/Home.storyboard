@@ -32,7 +32,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="NDR-ff-XNQ">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ChannelCell" id="NDR-ff-XNQ" customClass="ChannelCell">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -42,6 +42,10 @@
                                         </view>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Er9-UQ-hFr" id="rfe-VD-KjD"/>
+                                    <outlet property="delegate" destination="Er9-UQ-hFr" id="wSa-Ns-6WZ"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -58,6 +62,8 @@
                     <navigationItem key="navigationItem" title="网易新闻" id="Vrp-8x-aM4"/>
                     <connections>
                         <outlet property="channelView" destination="z7G-jD-bSN" id="Z7P-XR-SO9"/>
+                        <outlet property="collectionLayout" destination="bMY-sj-qwz" id="oXx-Kq-NNp"/>
+                        <outlet property="collectionView" destination="IJh-NO-Idp" id="AbT-Bw-BZk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BjS-Op-vCo" userLabel="First Responder" sceneMemberID="firstResponder"/>

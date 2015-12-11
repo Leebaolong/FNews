@@ -29,4 +29,20 @@
     return chaLabel;
     
 }
+
+- (void)setScale:(CGFloat)scale
+{
+    CGFloat max = SelectedSize / NormalSize - 1;
+    
+    CGFloat percent = max * scale + 1;
+    
+    self.transform = CGAffineTransformMakeScale(percent, percent);
+    
+    //变色
+    self.textColor = [UIColor colorWithRed:scale green:0 blue:0 alpha:1.0];
+}
+
+
+
+
 @end
