@@ -13,9 +13,11 @@
 		18A4533F1C1AA85B00CA0CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4533D1C1AA85B00CA0CC7 /* Main.storyboard */; };
 		18A453411C1AA85B00CA0CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A453401C1AA85B00CA0CC7 /* Assets.xcassets */; };
 		18A453441C1AA85B00CA0CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A453421C1AA85B00CA0CC7 /* LaunchScreen.storyboard */; };
+		7381B7E1D26C6C49DF5281E1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 376F1CA972DD3576DFB047BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09D7D26DBE17611F1B063367 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		18A453311C1AA85B00CA0CC7 /* FNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A453351C1AA85B00CA0CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A453371C1AA85B00CA0CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		18A453401C1AA85B00CA0CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A453431C1AA85B00CA0CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A453451C1AA85B00CA0CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376F1CA972DD3576DFB047BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03DD0F8C1B9CEE4FC9B73E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7381B7E1D26C6C49DF5281E1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				18A453331C1AA85B00CA0CC7 /* FNews */,
 				18A453321C1AA85B00CA0CC7 /* Products */,
+				9733170E2AB841EF1BCA5536 /* Pods */,
+				8BEE045C1C65E3815ADFC265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8BEE045C1C65E3815ADFC265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				376F1CA972DD3576DFB047BF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9733170E2AB841EF1BCA5536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D7D26DBE17611F1B063367 /* Pods.debug.xcconfig */,
+				B03DD0F8C1B9CEE4FC9B73E8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A453481C1AA85B00CA0CC7 /* Build configuration list for PBXNativeTarget "FNews" */;
 			buildPhases = (
+				A6B5CAF0AD75426FAD42FF46 /* Check Pods Manifest.lock */,
 				18A4532D1C1AA85B00CA0CC7 /* Sources */,
 				18A4532E1C1AA85B00CA0CC7 /* Frameworks */,
 				18A4532F1C1AA85B00CA0CC7 /* Resources */,
+				66CA52AA15FA3A832DF4E98C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +169,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66CA52AA15FA3A832DF4E98C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B5CAF0AD75426FAD42FF46 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18A4532D1C1AA85B00CA0CC7 /* Sources */ = {
@@ -259,6 +318,7 @@
 		};
 		18A453491C1AA85B00CA0CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D7D26DBE17611F1B063367 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FNews/Info.plist;
@@ -270,6 +330,7 @@
 		};
 		18A4534A1C1AA85B00CA0CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03DD0F8C1B9CEE4FC9B73E8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FNews/Info.plist;
@@ -298,6 +359,7 @@
 				18A4534A1C1AA85B00CA0CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
